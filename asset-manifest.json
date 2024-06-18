@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/reactIdiomPage/static/css/main.ddb515a6.css",
-    "main.js": "/reactIdiomPage/static/js/main.16a0285c.js",
+    "main.js": "/reactIdiomPage/static/js/main.75f01883.js",
     "static/js/453.ddafed9a.chunk.js": "/reactIdiomPage/static/js/453.ddafed9a.chunk.js",
     "index.html": "/reactIdiomPage/index.html",
     "main.ddb515a6.css.map": "/reactIdiomPage/static/css/main.ddb515a6.css.map",
-    "main.16a0285c.js.map": "/reactIdiomPage/static/js/main.16a0285c.js.map",
+    "main.75f01883.js.map": "/reactIdiomPage/static/js/main.75f01883.js.map",
     "453.ddafed9a.chunk.js.map": "/reactIdiomPage/static/js/453.ddafed9a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ddb515a6.css",
-    "static/js/main.16a0285c.js"
+    "static/js/main.75f01883.js"
   ]
 }
