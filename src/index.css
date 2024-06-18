@@ -1,0 +1,100 @@
+.APP {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 100%;
+}
+
+#root {
+  width: 100%;
+}
+
+.BUTTON {
+  margin: 30px;
+}
+
+.BUTTON > input {
+  margin: 30px;
+}
+
+.BUTTON {
+  width: 100%;
+}
+
+.img {
+  place-items: center;
+  width: 100%;
+}
+
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+  .APP {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/* For tablets: */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .APP {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+
+/* For small screens, laptops: */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .APP {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* For large screens: */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .APP {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* For extra large screens: */
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+  .APP {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+/* For extra large screens: */
+@media only screen and (min-width: 1600px) and (max-width: 2400px) {
+  .APP {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 2400px) and (max-width: 3000px) {
+  .APP {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
+
+.anton-regular {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lobster-regular {
+  font-family: "Lobster", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.londrina-sketch-regular {
+  color: blue;
+  font-family: "Londrina Sketch", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
